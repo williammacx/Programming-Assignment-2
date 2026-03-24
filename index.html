@@ -19,7 +19,7 @@
   const text = document.getElementById("quoteText");
 
   btn.addEventListener("click", () => {
-    const index = (Math.floor(Math.random() * quote.length);
+    const index = Math.floor(Math.random() * quote.length);
     text.textContent = quote[index];
   });
   
